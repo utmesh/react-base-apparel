@@ -1,0 +1,107 @@
+
+
+.entireDisplay{
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content: center;
+
+}
+.entireDisplay .Text{
+    margin-top: 55px;
+    text-align: center;
+}
+
+.entireDisplay h1, .entireDisplay h4{
+    font-family: 'Josefin Sans';
+}
+
+h1{
+    font-size: 75px;
+    margin-top: 75px;
+}
+
+h1 .salmon{
+    color: salmon;
+    
+}
+
+p{
+    color: salmon;
+}
+
+
+.entireDisplay .Text .inputStyle{
+    color: salmon;
+    border: 2px solid salmon;
+    border-radius: 25px;
+    width: 395px;
+    height: 38px;
+    margin-top: 25px;
+    margin-bottom: 75px;
+    margin-left: 40px;
+}
+
+.entireDisplay .Text .ovalShape{
+    
+    width: 73px;
+    height: 43px;
+    border-radius: 25px;
+    background-color: salmon;
+    border: 2px solid salmon;
+    position: relative;
+    right:55px;
+    top: 13px
+}
+
+.entireDisplay .Text .ovalShape img{
+    position: relative;
+    left: 20px;
+    bottom: 1px;
+    display: table-cell; 
+    text-align: center;  
+    vertical-align: middle;
+}
+
+.entireDisplay .Image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media (min-width:768px){
+
+    .entireDisplay {
+        flex-direction: row;
+        margin: 90px 25px 90px 25px;   
+    }
+    
+    .entireDisplay .Text{
+        margin-right: 95px;
+    }
+
+    .entireDisplay .Image{
+        width: 550px;
+        height: 1300px;
+    }
+    
+    .entireDisplay .Image img{
+        max-width: 90%;
+        max-height: 100%;
+        display: block;
+
+    }
+
+    .entireDisplay .Text .inputStyle{
+        width: 405px;
+        margin-left: 55px;
+    }
+
+    .entireDisplay .Text .ovalShape:hover, .entireDisplay .Text .icon:hover{
+        transform: scale(1.5);
+        background-color: lightpink;
+        border: 2px solid lightpink;
+        
+    }
+    
+}
