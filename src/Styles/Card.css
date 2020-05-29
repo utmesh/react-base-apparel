@@ -27,6 +27,7 @@ h1 .salmon{
 
 p{
     color: salmon;
+    text-align: center;
 }
 
 
@@ -34,23 +35,23 @@ p{
     color: salmon;
     border: 2px solid salmon;
     border-radius: 25px;
-    width: 395px;
+    width: 80%;
     height: 38px;
     margin-top: 25px;
     margin-bottom: 75px;
-    margin-left: 40px;
+    margin-left: 17px;
 }
 
 .entireDisplay .Text .ovalShape{
     
-    width: 73px;
-    height: 43px;
+    width: 15%;
+    height: 45px;
     border-radius: 25px;
     background-color: salmon;
     border: 2px solid salmon;
     position: relative;
-    right:55px;
-    top: 13px
+    left:145px;
+    bottom: 119px
 }
 
 .entireDisplay .Text .ovalShape img{
@@ -66,6 +67,8 @@ p{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -78,23 +81,24 @@ p{
     
     .entireDisplay .Text{
         margin-right: 95px;
+        text-align: center;
     }
 
     .entireDisplay .Image{
-        width: 550px;
-        height: 1300px;
+        width: 50%;
+        height: 100%;
     }
     
     .entireDisplay .Image img{
-        max-width: 90%;
-        max-height: 100%;
+        max-width: 75%;
+        max-height: 90%;
         display: block;
 
     }
 
     .entireDisplay .Text .inputStyle{
-        width: 405px;
-        margin-left: 55px;
+        width: 80%;
+        margin-left: 17px;
     }
 
     .entireDisplay .Text .ovalShape:hover, .entireDisplay .Text .icon:hover{
@@ -103,5 +107,17 @@ p{
         border: 2px solid lightpink;
         
     }
+    .entireDisplay .Text .ovalShape{
+    
+        width: 15%;
+        height: 45px;
+        border-radius: 25px;
+        background-color: salmon;
+        border: 2px solid salmon;
+        position: relative;
+        left:-60px;
+        top: 15px
+    }
+    
     
 }
