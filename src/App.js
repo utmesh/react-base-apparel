@@ -7,7 +7,9 @@ import logo from './Images/logo.svg'
 import iconArrow from './Images/icon-arrow.svg'
 
 
-const line = 'Hello fellow shoppers! We\'re currently building our new\n fashion store. Add your email below to stay up-to-date with \n announcements and our launch deals'
+const line = `Hello fellow shoppers! We\'re currently building our new \n
+fashion store. Add your email below to stay up-to-date with \n
+announcements and our launch deals`
 const lineSplitted = line.split('\n').map(i =>{
 return<p>{i}</p>
 })
